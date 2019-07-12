@@ -14,10 +14,11 @@
 // @import "components/index";
 // @import "pages/index";
 
-@import "../containers/_chatroom.scss";
-@import "../containers/_login.scss";
-@import "../containers/_match_profile.scss";
-@import "../containers/_user_profile.scss";
+@import "./containers/_chatroom.scss";
+@import "./containers/_login.scss";
+@import "./containers/_match_profile.scss";
+@import "./containers/_user_profile.scss";
+@import "./containers/_swiper.scss";
 
 // Place container styling here
 body {
