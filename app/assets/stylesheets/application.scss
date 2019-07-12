@@ -18,3 +18,16 @@
 @import "../containers/_login.scss";
 @import "../containers/_match_profile.scss";
 @import "../containers/_user_profile.scss";
+
+// Place container styling here
+body {
+  margin: 0;
+  padding: 5px;
+}
+
+.global-container {
+  color: red;
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+}
