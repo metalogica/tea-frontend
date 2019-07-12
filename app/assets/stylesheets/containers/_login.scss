@@ -1,3 +1,19 @@
 .login {
   // put all styling here inside these braces
+  display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	.login-buttons {
+		display:flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		max-width: 48px;
+		margin: 0 auto;
+		button {
+			margin: 3px;
+		}
+	}
+	
 }
