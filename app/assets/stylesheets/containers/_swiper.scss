@@ -1,10 +1,32 @@
 .swiper {
-  // put all styling here inside these braces
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 
-  .profile-img{
-  	border: 1px solid red;
-  	text-align: center;
-  	height: 350px;
+  .header {
+    // display:block;
+    // justify-content: space-evenly;
+    display:inline-flex;
+    justify-content: space-around;
+    img{
+      height: 133px;
+      margin-top: -50px;
+      margin-left: 270px;
+
+    }
+  }
+
+  .profile-img {
+    display: block;
+  }
+
+  .avatar-pic{
+    display:inline-block;
+    justify-content:center;
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
   }
 
   .swiper-display-info{
@@ -12,75 +34,72 @@
   	padding: 8px;
   }
 
-  .name {
-  	border: 1px solid red;
-  	padding: 2px;
-  	flex-grow: 2;
-  	margin: 2px;
+  .dropdowns {
+  display:inline-flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  i{
+    text-align: left;
+    }
   }
 
-	.learn-btn {
-		border: 1px solid red;
-  	padding: 2px;
-  	flex-grow: 2;
-  	margin: 2px;
+	.btn-swiper {
+    -moz-box-shadow:inset 0px 1px 0px 0px #FAF4ED;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #FAF4ED;
+    box-shadow:inset 0px 1px 0px 0px #FAF4ED;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FAECDE), color-stop(1, #FDDBB7));
+    background:-moz-linear-gradient(top, #FAECDE 5%, #FDDBB7 100%);
+    background:-webkit-linear-gradient(top, #FAECDE 5%, #FDDBB7 100%);
+    background:-o-linear-gradient(top, #FAECDE 5%, #FDDBB7 100%);
+    background:-ms-linear-gradient(top, #FAECDE 5%, #FDDBB7 100%);
+    background:linear-gradient(to bottom, #FAECDE 5%, #FDDBB7 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAECDE', endColorstr='#FDDBB7',GradientType=0);
+    background-color:#FAECDE;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #FDDBB7;
+    display:inline-block;
+    cursor:pointer;
+    color:#003636;
+    font-family:Montserrat;
+    font-variant:small-caps;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #FDDBB7;
 	}
 
-	.profile-summary {
-		border: 1px solid red;
-		display: flex;
-		flex-direction: row;
-		padding: 2px;
-	}
+  ul {
+    list-style-type: none;
+    margin-left: -40px;
+  }
 
-	.data-display {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		padding: 8px;
-	}
+  li {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: #F5F6F1;
+    margin: 8px;
+  }
 
-	.age {
-		border: 1px solid red;
-		flex-grow: 1;
-		margin: 2px;
-	}
+  .skills{
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:left;
+  }
 
-	.location {
-	  border: 1px solid red;
-	  flex-grow: 1;
-	  margin: 2px;
+  .competencies{
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:left;
+  }
 
-	}
-	.distance {
-		border: 1px solid red;
-		flex-grow: 1;
-		margin: 2px;
-	}
-	.competencies{
-		border: 1px solid red;
-		display: flex;
-		flex-direction: row;
-		height: 150px;
-	}
-
-	.skills {
-		border: 1px solid red;
-		width: 50%;
-		margin: 2px;
-		padding: 2px;
-	}
-
-	.interests {
-	  border: 1px solid red;
-	  width: 50%;
-	  margin: 2px;
-	  padding: 2px;
-	}
 	.footer {
 		display: flex;
 		flex-direction: row;
-		margin-top: 8px;
+		margin-top: 120px;
 		justify-content: space-evenly;
 	}
 }
