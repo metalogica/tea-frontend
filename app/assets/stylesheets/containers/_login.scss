@@ -7,7 +7,7 @@
 	.login-buttons {
 		display:flex;
 		justify-content: center;
-		max-width: 48px;
+		max-width: 100%;
 		margin: 0 auto;
 		button {
 			margin: 3px;
@@ -36,20 +36,28 @@
      padding:6px 24px;
      text-decoration:none;
      text-shadow:0px 1px 0px #FDDBB7;
+     width:160px;
 		}
 	}
 
-
+  .tagline {
+     display: inline-block;
+  }
   .header {
     display:block;
     height: 400px;
-    img {
-      height: 200px;
-      margin-bottom: -60px;
-    }
+    // img {
+    //   height: 200px;
+    //   margin-bottom: -60px;
+    // }
     h3 {
       font-variant: small-caps;
     }
+  }
+
+  .home-logo {
+    height: 90px;
+    margin-top: 50px;
   }
 
 }
