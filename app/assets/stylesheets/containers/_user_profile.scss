@@ -5,8 +5,9 @@
   flex-direction: column;
 
   .header {
-    display:block;
+    display: block;
     justify-content: center;
+    margin-bottom: 11px;
   }
 
   .home-logo {
@@ -79,21 +80,21 @@
   }
 
   #username {
-    border: .5px solid #98D5B3;
+    border: .5px solid #F5F6F1;
     border-radius: 10px;
     padding-left: 10px;
 
   }
 
   #age {
-    border: .5px solid #98D5B3;
+    border: .5px solid #F5F6F1;
     border-radius: 10px;
     padding-left: 10px;
 
   }
 
   #zip-code {
-    border: .5px solid #98D5B3;
+    border: .5px solid #F5F6F1;
     border-radius: 10px;
     padding-left: 10px;
     margin-top:4px;
@@ -101,14 +102,14 @@
   }
 
   #email {
-    border: .5px solid #98D5B3;
+    border: .5px solid #F5F6F1;
     border-radius: 10px;
     padding-left: 10px;
     margin-top:4px;
   }
 
   #aboutme {
-    border: .5px solid #98D5B3;
+    border: .5px solid #F5F6F1;
     border-radius: 10px;
     padding-left: 10px;
     margin-top: 6px;
@@ -139,7 +140,7 @@
   }
 
   .user-save {
-        margin-top: 16px;
+          margin-top: 36px;
          -moz-box-shadow:inset 0px 1px 0px 0px #FAF4ED;
          -webkit-box-shadow:inset 0px 1px 0px 0px #FAF4ED;
          box-shadow:inset 0px 1px 0px 0px #FAF4ED;
