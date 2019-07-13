@@ -1,15 +1,22 @@
 .chatroom {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 
   .header {
-    display:inline-flex;
-    justify-content: space-around;
-    margin-bottom: -34px;
-    img{
-      height: 133px;
-      margin-top: -50px;
-      margin-left: 200px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 50px;
 
-    }
+  }
+  .home-logo {
+    height: 40px;
+   margin-bottom: -60px;
+   margin-top: -50px;
+   position: absolute;
+   margin-top: 0px;
+   margin-left: 119px;
   }
 
   h1 {
@@ -45,7 +52,7 @@
     padding: 4px;
     border: 1px solid #F5F6F1;
     border-radius: 10px;
-    background-color: #F5F6F1;
+    background-color: white;
     h5 {
       font-weight:bold;
     }

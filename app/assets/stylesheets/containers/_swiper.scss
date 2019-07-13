@@ -5,22 +5,24 @@
   flex-direction: column;
 
   .header {
-    // display:block;
-    // justify-content: space-evenly;
-    display:inline-flex;
-    justify-content: space-around;
-    margin-bottom: -34px;
-    img{
-      height: 133px;
-      margin-top: -50px;
-      margin-left: 270px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 50px;
 
-    }
   }
 
   .profile-img {
     display: block;
   }
+
+  .home-logo {
+     height: 40px;
+     margin-bottom: -60px;
+     margin-top: -50px;
+     position: absolute;
+     margin-top: 0px;
+     margin-left: 119px;
+    }
 
   .avatar-pic{
     display:inline-block;
@@ -38,7 +40,7 @@
   .dropdowns {
   display:inline-flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 66px;
   i{
     text-align: left;
     }
@@ -81,8 +83,9 @@
     border: 1px solid white;
     border-radius: 30px;
     padding-left: 10px;
-    background-color: #F5F6F1;
+    background-color: white;
     margin: 8px;
+    text-align:center;
   }
 
   .skills{
@@ -97,22 +100,23 @@
     text-align:left;
   }
 
-  .send-message {
-    display:block;
 
-  }
-
-  .message-field {
-    border: .5px solid #98D5B3;
-    border-radius: 10px;
-    padding-left: 10px;
-    width: 80%;
-    height: 80px;
-  }
 	.footer {
-    left: 22px;
+    display: flex;
+    left: 0px;
     bottom: 0px;
     height: 65px;
     width: 100%;
+    position: fixed;
+    justify-content: space-evenly;
 	}
+  .fa-times{
+    color:red;
+    font-size:42px;
+  }
+
+  .fa-check{
+    color:green;
+    font-size:42px;
+  }
 }

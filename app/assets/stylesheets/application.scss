@@ -24,10 +24,11 @@
 
 .global-container {
   color: black;
-  background-color: #98D5B3;
+  background-color: #F5F6F1;
   font-family: 'Poppins', sans-serif;
   color: #003636;
   width: 100vw;
   height: 100vh;
   padding: 10px;
+  overflow: auto;
 }
