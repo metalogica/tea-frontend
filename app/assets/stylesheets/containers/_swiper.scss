@@ -1,3 +1,86 @@
 .swiper {
   // put all styling here inside these braces
+
+  .profile-img{
+  	border: 1px solid red;
+  	text-align: center;
+  	height: 350px;
+  }
+
+  .swiper-display-info{
+  	border: 1px solid red;
+  	padding: 8px;
+  }
+
+  .name {
+  	border: 1px solid red;
+  	padding: 2px;
+  	flex-grow: 2;
+  	margin: 2px;
+  }
+
+	.learn-btn {
+		border: 1px solid red;
+  	padding: 2px;
+  	flex-grow: 2;
+  	margin: 2px;
+	}
+
+	.profile-summary {
+		border: 1px solid red;
+		display: flex;
+		flex-direction: row;
+		padding: 2px;
+	}
+
+	.data-display {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 8px;
+	}
+
+	.age {
+		border: 1px solid red;
+		flex-grow: 1;
+		margin: 2px;
+	}
+
+	.location {
+	  border: 1px solid red;
+	  flex-grow: 1;
+	  margin: 2px;
+
+	}
+	.distance {
+		border: 1px solid red;
+		flex-grow: 1;
+		margin: 2px;
+	}
+	.competencies{
+		border: 1px solid red;
+		display: flex;
+		flex-direction: row;
+		height: 150px;
+	}
+
+	.skills {
+		border: 1px solid red;
+		width: 50%;
+		margin: 2px;
+		padding: 2px;
+	}
+
+	.interests {
+	  border: 1px solid red;
+	  width: 50%;
+	  margin: 2px;
+	  padding: 2px;
+	}
+	.footer {
+		display: flex;
+		flex-direction: row;
+		margin-top: 8px;
+		justify-content: space-evenly;
+	}
 }
