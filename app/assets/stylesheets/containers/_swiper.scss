@@ -9,6 +9,7 @@
     // justify-content: space-evenly;
     display:inline-flex;
     justify-content: space-around;
+    margin-bottom: -34px;
     img{
       height: 133px;
       margin-top: -50px;
@@ -69,6 +70,7 @@
     padding:6px 24px;
     text-decoration:none;
     text-shadow:0px 1px 0px #FDDBB7;
+    margin-top: 12px;
 	}
 
   ul {
@@ -96,10 +98,23 @@
     text-align:left;
   }
 
+  .send-message {
+    display:block;
+
+  }
+
+  .message-field {
+    border: .5px solid #98D5B3;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 80%;
+    height: 80px;
+  }
 	.footer {
-		display: flex;
-		flex-direction: row;
-		margin-top: 120px;
-		justify-content: space-evenly;
+    position: fixed;
+    left: 22px;
+    bottom: 0px;
+    height: 65px;
+    width: 100%;
 	}
 }
