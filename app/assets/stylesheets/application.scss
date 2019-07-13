@@ -21,13 +21,13 @@
 @import "./containers/_swiper.scss";
 
 // Place container styling here
-body {
-  margin: 0;
-  padding: 5px;
-}
 
 .global-container {
   color: black;
+  background-color: #98D5B3;
+  font-family: Montserrat;
+  color: #003636;
   width: 100vw;
   height: 100vh;
+  padding: 10px;
 }

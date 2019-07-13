@@ -1,16 +1,10 @@
 .match_profile {
 
-  .match-username {
 
-  }
 
   .match-avatar-container {
     display:inline-block;
     text-align: center;
-
-  }
-
-  .match-picture {
 
   }
 
@@ -30,20 +24,48 @@
   }
 
   .match-skill-set {
-    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin:auto;
+
+  }
+
+  .skills {
+
   }
 
   .skills-list {
-    display:inline-block;
+
   }
 
-  .list {
-    float:left;
+  .competencies {
+
   }
 
   .competencies-list {
-  display:inline-block;
+
   }
 
+  .match-messages {
+    display:grid;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+
+  }
+
+  .message-box {
+    height: 200px;
+
+  }
+
+  .btn-message {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
 
 }

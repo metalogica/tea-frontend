@@ -1,3 +1,37 @@
 .chatroom {
   // put all styling here inside these braces
+  h1 {
+  	text-align: center;
+  }
+	.message {
+		border: 1px solid red;
+	}
+	.fa-user {
+		margin: 10px;
+		font-size: 18px;
+	}
+
+	p {
+		margin: 10px;
+		font-size: 18px
+	}
+
+	.fa-thumbs-up {
+		margin: 10px;
+		font-size: 18px;
+	}
+
+	.message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+	}
+
+	  .footer {
+			display: flex;
+			flex-direction: row;
+			margin-top: 8px;
+			justify-content: space-evenly;
+	}
 }
